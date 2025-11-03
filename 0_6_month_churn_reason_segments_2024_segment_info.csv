@@ -1,0 +1,34 @@
+segment,size,summary
+1,215,"1. **Core Industry:** Veterinary and Medical are the top two industries represented in the data.
+
+2. **Practice Management Software:** Common PMS includes eClinicalWorks, ChiroTouch, Jane, and others; many entries state ""No integration info.""
+
+3. **Lifetime in Months:** The most common tenure bucket is 2-3 months, with a notable number also at 4-6 months.
+
+4. **Bundles:** Dominant starting bundles include WeavePlus - Elite, WeaveCore - Pro, WeavePlus - Essentials, WeavePlus - Pro, and WeaveCore Software Only - Essentials.
+
+5. **Key Issue Features:** Key issues include problems with auto reminders, appointment reminders, data sync, and integration failures with PMS systems, leading to frustration and cancellations.
+
+6. **Key Onboarding Issue:** Pain points include poor support response times, unresolved technical issues, and difficulties with porting numbers, causing dissatisfaction during onboarding."
+2,240,"1. **Core Industry:** Dental, Optometry  
+2. **Practice Management Software:** Dentrix, Open Dental, Eaglesoft, Crystal PM, No integration info  
+3. **Lifetime in Months:** Common tenures are 1-2 months and 5-6 months, indicating quick dissatisfaction or long-term unresolved issues.  
+4. **Bundles:** WeavePlus Elite, WeavePlus Pro, WeavePlus Software Only, WeaveCore Elite, Patterson Bundle  
+5. **Key Issue Features:** Integration issues with forms, appointment reminders, data sync, and auto reminders; notably, forms not writing back to PMS and scheduling conflicts.  
+6. **Key Onboarding Issues:** Poor support, unclear communication, rushed onboarding processes, and unresolved technical issues leading to frustration."
+3,339,"1. **Core Industry:** Veterinary and Dental are the top two industries represented.
+  
+2. **Practice Management Software:** The most common PMS includes Eaglesoft, Open Dental, and eClinicalWorks; others are noted as ""No integration info.""
+
+3. **Lifetime in Months:** The most common tenure buckets are 1-2 months and 3-6 months.
+
+4. **Bundles:** Dominant starting bundles include WeavePlus - Elite, WeavePlus - Pro, WeavePlus Software Only - Elite, WeaveCore - Essentials, and Patterson Bundle.
+
+5. **Key Issue Features:** Common issues include:  
+   - **Forms:** Integration problems and lack of customization.  
+   - **Auto Reminder:** Issues with appointment reminders not functioning correctly.  
+   - **Data Sync:** Problems syncing with various PMS systems, causing operational inefficiencies.  
+   - **SMS Issues:** Messages pulling incorrect contact information.  
+   - **Call Quality:** Dropped calls and poor audio quality.  
+
+6. **Key Onboarding Issues:** Pain points include poor communication during onboarding, lack of adequate training, unresolved technical issues, and misaligned expectations regarding product capabilities."

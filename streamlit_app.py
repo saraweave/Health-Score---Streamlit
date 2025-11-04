@@ -29,9 +29,9 @@ def build_sidebar() -> dict[str, float | str | None]:
     }
 
 
-def load_client(model: str) -> ChatGPTClient | None:
+def load_client(model: str, api_key: str | None) -> ChatGPTClient | None:
     try:
-        return ChatGPTClient(model=model)
+        return ChatGPTClient(api_key=api_key, model=model)
     except ValueError as exc:
         st.session_state.client_error = str(exc)
         return None
@@ -43,7 +43,8 @@ def main() -> None:
     init_session()
 
     sidebar_options = build_sidebar()
-    client = load_client(sidebar_options["model"])
+    secrets_api_key = st.secrets.get("OPENAI_API_KEY") if hasattr(st, "secrets") else None
+    client = load_client(sidebar_options["model"], secrets_api_key)
 
     if st.session_state.client_error:
         st.error(st.session_state.client_error)
@@ -83,4 +84,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

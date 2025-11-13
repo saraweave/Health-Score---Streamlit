@@ -2,3 +2,4 @@ top_secret.py
 __pycache__/
 *.pyc
 .env
+.streamlit/secrets.toml

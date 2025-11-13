@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-st.title("ChatGPT-like clone")
+st.title("Data Agent")
 
 # Set OpenAI API key from Streamlit secrets or environment variables
 try:
